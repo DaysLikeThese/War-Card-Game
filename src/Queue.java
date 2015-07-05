@@ -1,8 +1,8 @@
 import java.util.LinkedList;
 
-public class Hand<E> extends LinkedList<E> {
+public class Queue<E> extends LinkedList<E> {
 	
-	public Hand() {}
+	public Queue() {}
 	
 	public void put(E o) {
 		addLast(o);
