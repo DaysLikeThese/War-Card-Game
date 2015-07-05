@@ -1,5 +1,5 @@
 
-public class Board<E> extends Prize<E>{
+public class Board<E> extends Stack<E>{
 
 	public void addWarCards(Player<E> player) {
 		if (player.getNumCards() > 3) {
