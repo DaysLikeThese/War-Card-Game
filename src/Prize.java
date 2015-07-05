@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 public class Stack<E> extends LinkedList<E> {
-	public Prize() {}
+	public Stack() {}
 	
 	public void put(E o) {
 		addFirst(o);
