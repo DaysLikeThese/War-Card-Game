@@ -13,15 +13,15 @@ public class Player<E> extends Queue<E>{
 		return get();
 	}
 	
-	public void addCard(Queue<E> queue) {
-		put(queue.get());
+	public void addCard(Board<E> board) {
+		put(board.get());
 		numCards++;
 	}
 	
-	public void addAllCards(Queue<E> queue) {
-		int size = queue.size();
+	public void addAllCards(Board<E> board) {
+		int size = board.size();
 		for (int i = 0; i < size; i++) {
-			put(queue.get());
+			put(board.get());
 			numCards++;
 		}
 	}
